@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .container { 
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        div div {
+            
+            background-color: #8EC5FC;
+            background: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+
+            width: 200px;
+            height: 200px;
+            position: relative;
+            border-radius: 50%;
+            left: 40%;
+            border: 1px solid black;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 120px;
+        }
+
+        .Circle-1 {
+           
+            z-index: 4;
+        }
+        .Circle-2{
+            top: -70px;
+            z-index: 3;
+        }
+
+        .Circle-3 {
+            top: -170px;
+            z-index: 2;
+        }
+
+        .Circle-4 {
+            top: -270px;
+            z-index: 1;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+   <div class="Circle-1"><h1>1</h1></div>
+   <div class="Circle-2"><h1>2</h1></div>
+   <div class="Circle-3"><h1>3</h1></div>
+   <div class="Circle-4"><h1>4</h1></div>
+    </div>
+</body>
+</html>
